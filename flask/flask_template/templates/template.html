@@ -1,0 +1,22 @@
+<!-- <!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        
+    </body>
+</html> -->
+{% extends "BASIC.html" %}
+{% block content %}
+<div class="jumbotron">
+
+    <h1>welcome to the sign up page</h1>
+    <p>fill the form</p>
+        <form action="{{url_for('thank you')}}">
+            <label for="first name">first name:</label>
+            <input type="text" name="first">
+        </form>
+</div>
+{% endblock %}
