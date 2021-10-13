@@ -1,2 +1,3 @@
-January-March,2021
-I explored regularized linear regression models for the task of prediction and feature selection. I was able to handle very large sets of features and select between models of various complexity and also analyzed the impact of aspects of the data, such as outliers, on the selected models and predictions. To fit these models, I implemented optimization algorithms that scale to large datasets. 
+MAY,2021
+
+By finding similar documents, I examined similarity-based algorithms for retrieval and structured representations for describing the documents in the corpus, including clustering and mixed membership models, such as latent Dirichlet allocation (LDA). I implemented expectation maximization (EM) to learn the document clusterings, and see how to scale the methods using MapReduce.
